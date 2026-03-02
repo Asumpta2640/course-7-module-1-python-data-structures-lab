@@ -6,4 +6,7 @@ def unique_majors(student_list):
     Extract the major field from each student record.
     """
     #pass
-    return {student[2] for student in student_list}
+    return {
+        student[2]
+         for student in student_list
+    }

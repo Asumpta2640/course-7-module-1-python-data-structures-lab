@@ -6,4 +6,8 @@ def student_generator(student_list, major):
     using a Python generator.
     """
     #pass
-    return (student for student in student_list if student[2].lower() == major.lower())
+    return (
+        student
+         for student in student_list 
+         if student[2].lower() == major.lower()
+         )
